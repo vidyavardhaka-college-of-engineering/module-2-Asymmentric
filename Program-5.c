@@ -9,8 +9,8 @@
 int main()
 {
    int a[10],i,sum,n;
-   printf("Enter number of elements in array and the array elements");
-   scanf("%d", &n);
+   printf("Enter number of elements in array and the array elements" );
+   scanf("%d", &n); 
  
   // printf("Enter %d elements\n", n);
  
@@ -19,7 +19,7 @@ int main()
       scanf("%d", &a[i]);
       sum=sum+a[i]; 
    }
- printf("Sum of elements=%d", sum);
+ printf("Sum of elements=%d",sum);
  
   return 0;
 }
